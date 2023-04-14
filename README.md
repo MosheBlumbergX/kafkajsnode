@@ -3,7 +3,16 @@
 
 A quick repo to show how to use kafkajs with Confluent Cloud and Confluent Schema registry 
 
+## Prerequisites  
 
+* Confluent Cloud kafka cluster 
+* Confluent Cloud Schema Registry cluster
+* Install of kafkajs and kafkajs schema registry
+ * `npm install kafkajs`
+ * `npm install @kafkajs/confluent-schema-registry` 
+
+
+## Start here
 
 * Create topic `jskafkatopic`: 
 
@@ -46,3 +55,13 @@ The following code:
 ```
 node consumer.js
 ```
+
+
+## Reference 
+
+[kafkajs schema registry github](https://github.com/kafkajs/confluent-schema-registry/tree/a3921d3cbd203eb7c41a0cb321b12a2608c7ecd8)  
+[kafkajs schema registry docs](https://kafkajs.github.io/confluent-schema-registry/)
+
+
+[kafkajs github](https://github.com/tulios/kafkajs)  
+[kafkajs docs](https://kafka.js.org/)
