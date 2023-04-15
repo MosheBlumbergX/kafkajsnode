@@ -56,6 +56,20 @@ The following code:
 node consumer.js
 ```
 
+## Register Avro schema  
+
+
+You can register schema, read IDs and read schemas with the client: 
+```
+node avro.js 
+```
+
+
+## Simple none SR producer/consumer 
+
+```
+node producer_consumer_no_SR.js
+```
 
 ## Reference 
 
